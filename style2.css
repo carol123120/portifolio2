@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #f8f9fa;
+  color: #000000;
+
+  
+}
+
+header {
+  background: #ffaff2;
+  color: white;
+  text-align: center;
+  padding: 2.5rem 1rem;
+}
+
+.perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav {
+  background: #ff7dd4;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+h2 {
+  color: hsl(0, 0%, 0%);
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: hsl(0, 0%, 0%);
+  margin-bottom: 0.5rem;
+}
+
+.projetos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.projeto {
+  flex: 1 1 250px;
+  background: rgb(255, 175, 224);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.projeto a {
+  color: hsl(318, 100%, 68%);
+  text-decoration: none;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+section {
+  text-align: center;
+  
+}
+
